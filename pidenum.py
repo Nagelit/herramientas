@@ -1,4 +1,4 @@
-def main():
+def pideUnNum():
     msg = "Dame un num: "
     entrada = ''
     invalido = False
@@ -7,4 +7,5 @@ def main():
             print("Obligatoriamente debe ser un número")
         invalido = True
         entrada = input(msg)
+    
     return int(entrada)
